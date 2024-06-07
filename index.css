@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: black !important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.logo h1{
+    font-size: 1.3rem;
+}
+/* Navbar Css Start */
+.main-container .navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    color: white;
+    background-color: black;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+ 
+.navlist ul{
+    display: flex;
+}
+.navlist ul li{
+    list-style: none;
+}
+.navlist ul li a{
+    padding: 0.5rem 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.navlist ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Navbar Css End */
+
+
+/*Header Content Css Start */
+.header-content{
+    margin-top: 8rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 2rem; */
+}
+.left{
+    width: 40%;
+    height: auto;
+}
+.left img{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+
+}
+.right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.top h2{
+    text-align: center;
+    font-size: 2rem;
+    /* letter-spacing: 0.3rem; */
+}
+.mid p{
+    /* width: 50%; */
+    margin: 1.5rem 0;
+}
+.bottom{
+    width: 100%;
+    background-color: orange;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bottom input{
+    padding: 0.2rem;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    color:  white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.bottom button{
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: ease-in 0.3s;
+}
+.bottom button:hover{
+    background-color: white;
+    color: black;
+}
+/* header Css End */
+
+
+
+/* Method Css Start */
+.method{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding:1.5rem; */
+    flex-direction: c;
+    margin: 3rem auto;
+}
+.method-l{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.method-l p{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.method-l .btn{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+.method-l .btn i{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.method-r{
+    width: 50%;
+    display: flex;
+    
+}
+.box{
+    margin:0 0.5rem;
+    width: auto;
+    height: auto;
+    background-color: goldenrod;
+    padding: 1.5rem;
+}
+.box i{
+    font-size: 2rem;
+}
+.box h3{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.box p{
+    font-weight: 300;
+}
+
+/* Method Css End */
+
+.quality-content{
+    width: 80%;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+.q-left{
+    width: 40%;
+    height: auto;
+}
+.q-left img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.q-right{
+    width: 40%;
+    height: auto;
+}
+.q-right h2,.q-right p{
+    width: 70%;
+}
+.q-right p{
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+.q-right button{
+    padding: 0.5rem 1.5rem;
+    background-color: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    transition: ease-in-out 0.3s;
+}
+.q-right button:hover{
+    background-color: white;
+    color: orange;
+}
+.courses-content{
+    width: 100% !important;
+}
+.card{
+    width: 18rem;
+}
+
+
+/* Course Conatianer Css Start */
+
+.courses-container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.courses-container h2{
+    margin: 1rem 0;
+}
+.courses-container p{
+    margin-bottom:2rem ;
+}
+.card{
+    margin-top: 1rem;
+    border: none !important;
+}
+.card h5{
+    color: orange;
+}
+.card h5 span{
+    color: black;
+}
+.course-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.class-btn{
+    width: 200px;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 1rem 0;
+    transition: ease-in 0.3s;
+    border-radius: 10px;
+}
+.class-btn:hover{
+    color: white;
+    background-color: orange;
+}
+
+.bottom-box{
+    width: 70%;
+    height: auto;
+    padding: 1.5rem 0;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.b-left{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.b-left p{
+    margin: 1.5rem 0;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+
+}
+.b-right{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-right img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+/* Media Qeuery CSS Sart */
+@media screen and (min-width:0px) and (max-width:768px) {
+    .navlist{
+        display: none;
+    }
+    .header-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .header-content .left ,.header-content .right{
+        width: 80%;
+    }
+    .method{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .method-l{
+        width: 80%;
+    }
+    .method-l h2{
+        margin-top: 0.5rem;
+    }
+    .quality-content{
+        flex-direction: column;
+        width: 80%;
+    }
+    .q-left,.q-right{
+        width: 100%;
+    }
+    .q-right h2{
+        margin-top: 1rem;
+    }
+    .bottom-box{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .bottom-box .b-left,.b-right{
+        width: 80%;
+    }
+    
+    .bottom-box .b-left h2{
+        margin-top: 1rem;
+    }
+    .method-r{
+        width: 100%;
+        flex-direction: column;
+    }
+    .method-r .box{
+        margin-top: 0.5rem;
+        
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .bottom button{
+        margin-top: 0.5rem;
+    }
+}
